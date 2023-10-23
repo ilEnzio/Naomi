@@ -1,0 +1,27 @@
+Your job is to search the PUE/Prompt Under Evaluation; Find the Role or primary procedure; Generate a customer inquiry as a seed for the PUE.
+
+
+(PUE/Prompt Under Evaluation:
+
+{PUE}
+)
+
+Your Output should be only json with the following fields:
+
+
+You should generate 3 distinct test inputs for each configuration combination.
+
+
+input seed:
+{input_seed}
+
+output:
+)
+
+Your output is a JSON object with the following fields:
+seed: this will be the inquiry you have determined after searching the primary procedure of the PUE.
+responses: a few reasonable responses given the PUE
+
+
+
+output:
